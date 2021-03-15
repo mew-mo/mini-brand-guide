@@ -1,0 +1,170 @@
+
+// our very epic variables
+
+$bz-pink: #F5349A;
+$bz-yellow: #FBDC2C;
+$bz-blue: #2E89C7;
+
+html,
+body {
+  height: 100%;
+  // overflow-x: hidden;
+  // overflow-y: hidden;
+  font-family: 'Oswald', sans-serif;
+  // this just keeps things within the page without scrolling but we can get rid of it if we have too much content!
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.title h1 {
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+}
+
+.color-area,
+.typography-area {
+  height: 100%;
+  width: 50%;
+  padding: 20px;
+}
+
+// color area starts---------------------------------------------
+.color-area {
+  background-color: #fff;
+
+  h1 {
+    width: 100%;
+  }
+}
+
+.primary-color {
+  height: 50px;
+  width: 700px;
+  background-color: $bz-pink;
+}
+
+.secondary-color {
+  height: 50px;
+  width: 500px;
+  background-color: $bz-yellow;
+}
+
+.tertiary-color {
+  height: 50px;
+  width: 300px;
+  background-color: $bz-blue;
+}
+
+.primary-color,
+.secondary-color,
+.tertiary-color,
+.gradient {
+  margin: 50px 50px 0 50px;
+}
+
+.color-title {
+  font-size: 44px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.gradient {
+  height: 350px;
+  width: 800px;
+  background-image: linear-gradient(120deg,$bz-pink,$bz-yellow);
+}
+
+.hex {
+  font-weight: 200;
+  font-size: 2rem;
+}
+
+.pink {
+  color: $bz-pink;
+}
+
+.yellow {
+  color: $bz-yellow;
+}
+
+.blue {
+  color: $bz-blue;
+}
+
+// color area ends------------------------------------------------
+
+
+ //typography area starts
+.typography-area {
+  background-color: powderblue;
+}
+
+.oswald1 {
+  font-size: 5rem;
+  text-align: left;
+  margin: 0 0 0 35px;
+  padding: 0;
+
+}
+
+.oswald2 {
+  margin-left: 250px;
+  margin-right: 50px;
+
+}
+
+.headers1 {
+  margin-left: 250px;
+  line-height:15px;
+}
+
+.typescale1 {
+  display:flex;
+}
+.typescale2 {
+  font-size:4rem;
+  margin-left: 35px;
+}
+
+.one {
+font-size: 4rem;
+font-weight:400;
+}
+.two {
+font-size: 3.5rem;
+font-weight:400;
+}
+.three {
+font-size: 3rem;
+font-weight:300;
+}
+.four {
+font-size: 2.5rem;
+font-weight:300;
+}
+.five {
+font-size: 2rem;
+font-weight:300;
+}
+.six {
+font-size: 1.5rem;
+font-weight:200;
+}
+.seven {
+font-size: 1rem;
+font-weight:200;
+}
+
+.headers2 {
+  // margin
+}
