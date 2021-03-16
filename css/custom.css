@@ -6,7 +6,7 @@ body {
 body {
   margin: 0;
   padding: 0;
-  background-image: url(../img/bz-bg.jpg); }
+  background-color: #fff; }
 
 .logo {
   position: absolute;
@@ -25,7 +25,7 @@ body {
   display: flex;
   height: 100vh;
   flex-direction: row;
-  background: rgba(255, 255, 255, 0.45);
+  background: rgba(251, 220, 44, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(15px);
@@ -43,7 +43,7 @@ body {
     transition: 0.2s; }
   .color-area .title:hover,
   .typography-area .title:hover {
-    color: #fff; }
+    color: #F5349A; }
 
 .primary-color {
   height: 50px;
@@ -105,7 +105,7 @@ body {
 .oswald1 {
   font-size: 3rem;
   text-align: left;
-  color: #fff;
+  color: #F5349A;
   margin: 0 0 0 35px;
   padding: 0; }
 
@@ -120,7 +120,7 @@ body {
 
 .typescale2 {
   font-size: 3rem;
-  color: #fff;
+  color: #F5349A;
   margin: 0 0 0 35px; }
 
 .one {
